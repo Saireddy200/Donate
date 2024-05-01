@@ -39,7 +39,7 @@ function App() {
       }
     };
     connectWallet();
-  }, []);
+  }, [setAccount]);
   console.log(state);
   return (
     <div style={{ backgroundColor: "#EFEFEF", height: "100%" }}>
